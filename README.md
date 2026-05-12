@@ -174,63 +174,6 @@ module.exports = {
 - Tablet: 768px - 1023px
 - Desktop: 1024px and above
 
-## 🔄 State Management
-
-Uses Redux Toolkit for global state:
-
-- User authentication state
-- Shopping cart items
-- Product filters
-- UI state (modals, notifications)
-
-## 🌐 Deployment
-
-### Vercel
-```bash
-npm install -g vercel
-vercel
-```
-
-### Netlify
-```bash
-npm run build
-# Deploy the dist/ folder
-```
-
-## 🤝 Contributing
-
-1. Create a feature branch: `git checkout -b feature/YourFeature`
-2. Commit changes: `git commit -m 'Add YourFeature'`
-3. Push to branch: `git push origin feature/YourFeature`
-4. Open a Pull Request
-
-## 📝 Commit Convention
-
-Follow conventional commits:
-- `feat:` New feature
-- `fix:` Bug fix
-- `docs:` Documentation
-- `style:` Code style
-- `refactor:` Code refactoring
-- `test:` Tests
-- `chore:` Maintenance
-
-## 🐛 Troubleshooting
-
-### Port 5173 already in use
-```bash
-npm run dev -- --port 3000
-```
-
-### Clear cache and reinstall
-```bash
-rm -rf node_modules
-npm install
-```
-
-### CORS errors
-Ensure backend is running and `VITE_API_URL` is correct in `.env.local`
-
 ## 📚 Resources
 
 - [React Documentation](https://react.dev)
@@ -239,23 +182,8 @@ Ensure backend is running and `VITE_API_URL` is correct in `.env.local`
 - [Redux Toolkit](https://redux-toolkit.js.org)
 - [React Router](https://reactrouter.com)
 
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## 👨‍💻 Author
 
 **maiar38** - [GitHub Profile](https://github.com/maiar38)
 
-## 🙏 Acknowledgments
-
-- Vite team for the amazing build tool
-- React community for best practices
-- Tailwind CSS for utility-first styling
-- All contributors and testers
-
----
-
-**Happy coding! 🚀** 
-
-For questions or support, please open an issue in the repository.
